@@ -1,7 +1,7 @@
-#This is an Offer Banner using Html Css and JS
+This is an Offer Banner using Html Css and JS
 
-#Desktop view
-[alt text](desktop.png)
+Desktop view
+(desktop.png)
 
-#Mobile view
-![alt text](image.png)!
+Mobile view
+(image.png)!
