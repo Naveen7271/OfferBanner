@@ -1,0 +1,88 @@
+.containerparent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.container{
+    display: flex;
+    /* background-color: rgb(215, 179, 16); */
+    background: rgb(255,189,0);
+    background: linear-gradient(90deg, rgba(255,189,0,1) 0%, rgba(255,166,0,1) 50%, rgba(255,140,0,1) 100%);
+    border-radius: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.icon {
+    width: 55px;  
+    height: 55px;
+}
+
+.offer-wrapper {
+    
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+.offer{
+    
+    font-size:20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.offer1{
+    font-size:20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        background: #fef2c6;
+        flex-direction: column;
+        height: 13vh;
+        padding: 10px;
+        border: 1px solid #ffda80;
+        border-radius: 10px;
+        max-width: 600px;
+        
+;
+    }
+    .icon{
+    width: 30px;  
+    height: 30px;
+    content: url('https://img.icons8.com/?size=100&id=QVgeOFh3ZOQQ&format=png&color=000000');
+
+    }
+    .offer-wrapper1{
+        background-color: #ffda80;
+        width: 105%;
+        
+    }
+    .offer{
+        font-size:20px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    
+    .offer1{
+        font-size:20px;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+
+}
